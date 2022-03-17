@@ -31,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Python.Paper Scissors Rock">
+  <component name="RunManager" selected="Python.Kidz Fun">
     <configuration name="Dog Sitting Service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practice Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Paper Scissors Rock" />
         <item itemvalue="Python.Kidz Fun" />
+        <item itemvalue="Python.Paper Scissors Rock" />
         <item itemvalue="Python.Dog Sitting Service" />
       </list>
     </recent_temporary>

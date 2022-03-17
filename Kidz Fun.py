@@ -1,6 +1,9 @@
-#Functions
+# Functions
 def fun_sun():
+    global fun_sun_total
     fun_sun_total = 0
+    global fun_sun_age
+    fun_sun_age = []
     try:
         age = int(input("How old is your child? "))
         if age < 5 or age > 15:
@@ -14,7 +17,10 @@ def fun_sun():
 
 
 def active_():
+    global active_total
     active_total = 0
+    global active_age
+    active_age = []
     try:
         age = int(input("How old is your child? "))
         if age < 5 or age > 15:
@@ -30,11 +36,6 @@ def active_():
 def average(age):
     avg = sum(age) / len(age)
     return avg
-
-# Lists
-
-fun_sun_age = []
-active_age = []
 
 
 # Main Routine
@@ -52,13 +53,14 @@ while program != "x":
         active_()
 
     elif program == "x":
-        print(f"There is a total of {fun_sun_total} in the Fun in the Sun "
+        print(f"\nThere is a total of {fun_sun_total} in the Fun in the Sun "
               f"programme, and a total of {active_total} in the "
               f"Active Kidz "
               f"programme\n"
-              f"The average age for Fun in the Sun is {average(fun_sun_age)} "
+              f"The average age for Fun in the Sun is "
+              f"{round(average(fun_sun_age))} "
               f"years old, and the average age for Active Kidz, is "
-              f"{average(active_age)} years old")
+              f"{round(average(active_age))} years old")
 
     else:
         print("Please enter a valid program or 'X' to see the average when "
